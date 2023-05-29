@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Coin.h" />
+    <ClInclude Include="D:\2022_win64\Framework.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Environment.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Ability.h" />
+    <ClInclude Include="Platform.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Projectile.h" />
+    <ClInclude Include="Turret.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\2022_win64\FrameworkRelease_x64.dll" />
+    <None Include="D:\2022_win64\libjpeg-9.dll" />
+    <None Include="D:\2022_win64\libpng16-16.dll" />
+    <None Include="D:\2022_win64\SDL2.dll" />
+    <None Include="D:\2022_win64\SDL2_image.dll" />
+    <None Include="D:\2022_win64\zlib1.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="D:\2022_win64\FrameworkRelease_x64.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\2022_win64\game.cpp" />
+    <ClCompile Include="Environment.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Player.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="D:\2022_win64\data\ach-bouncer%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-bouncer.png" />
+    <Image Include="D:\2022_win64\data\ach-conflict%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-conflict.png" />
+    <Image Include="D:\2022_win64\data\ach-doodle-jump-explorer%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-doodle-jump-explorer.png" />
+    <Image Include="D:\2022_win64\data\ach-egg-hunter-1000%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-egg-hunter-1000.png" />
+    <Image Include="D:\2022_win64\data\ach-egg-hunter-50%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-egg-hunter-50.png" />
+    <Image Include="D:\2022_win64\data\ach-endurance-jumper%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-endurance-jumper.png" />
+    <Image Include="D:\2022_win64\data\ach-epic-fail%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-epic-fail-ftw%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-epic-fail-ftw.png" />
+    <Image Include="D:\2022_win64\data\ach-epic-fail.png" />
+    <Image Include="D:\2022_win64\data\ach-facebook%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-facebook.png" />
+    <Image Include="D:\2022_win64\data\ach-focused-endurance-jumper%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-focused-endurance-jumper.png" />
+    <Image Include="D:\2022_win64\data\ach-hundred-thousand%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-hundred-thousand.png" />
+    <Image Include="D:\2022_win64\data\ach-jetpack%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-jetpack.png" />
+    <Image Include="D:\2022_win64\data\ach-monster-chopper%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-monster-chopper.png" />
+    <Image Include="D:\2022_win64\data\ach-old%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-old.png" />
+    <Image Include="D:\2022_win64\data\ach-pocket-god%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-pocket-god.png" />
+    <Image Include="D:\2022_win64\data\ach-propeller%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-propeller.png" />
+    <Image Include="D:\2022_win64\data\ach-race-champ%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-race-champ.png" />
+    <Image Include="D:\2022_win64\data\ach-race-hero%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-race-hero.png" />
+    <Image Include="D:\2022_win64\data\ach-race-legend%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-race-legend.png" />
+    <Image Include="D:\2022_win64\data\ach-sharp%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-sharp.png" />
+    <Image Include="D:\2022_win64\data\ach-spring%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-spring.png" />
+    <Image Include="D:\2022_win64\data\ach-springer%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-springer.png" />
+    <Image Include="D:\2022_win64\data\ach-super-bouncer%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-super-bouncer.png" />
+    <Image Include="D:\2022_win64\data\ach-super-conflict%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-super-conflict.png" />
+    <Image Include="D:\2022_win64\data\ach-super-sharp%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-super-sharp.png" />
+    <Image Include="D:\2022_win64\data\ach-super-springer%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-super-springer.png" />
+    <Image Include="D:\2022_win64\data\ach-twitter%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-twitter.png" />
+    <Image Include="D:\2022_win64\data\ach-ufo%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-ufo-bouncer%402x.png" />
+    <Image Include="D:\2022_win64\data\ach-ufo-bouncer.png" />
+    <Image Include="D:\2022_win64\data\ach-ufo.png" />
+    <Image Include="D:\2022_win64\data\achievement-name-tiles%402x.png" />
+    <Image Include="D:\2022_win64\data\achievement-name-tiles.png" />
+    <Image Include="D:\2022_win64\data\achievements%402x.png" />
+    <Image Include="D:\2022_win64\data\achievements.png" />
+    <Image Include="D:\2022_win64\data\achievements_on%402x.png" />
+    <Image Include="D:\2022_win64\data\achievements_on.png" />
+    <Image Include="D:\2022_win64\data\all%402x.png" />
+    <Image Include="D:\2022_win64\data\all.png" />
+    <Image Include="D:\2022_win64\data\all_on%402x.png" />
+    <Image Include="D:\2022_win64\data\all_on.png" />
+    <Image Include="D:\2022_win64\data\auto-button%402x.png" />
+    <Image Include="D:\2022_win64\data\auto-button-on%402x.png" />
+    <Image Include="D:\2022_win64\data\auto-button-on.png" />
+    <Image Include="D:\2022_win64\data\auto-button.png" />
+    <Image Include="D:\2022_win64\data\awesome%402x.png" />
+    <Image Include="D:\2022_win64\data\awesome.png" />
+    <Image Include="D:\2022_win64\data\bck%402x.png" />
+    <Image Include="D:\2022_win64\data\bck.png" />
+    <Image Include="D:\2022_win64\data\blue-lik-left%402x.png" />
+    <Image Include="D:\2022_win64\data\blue-lik-left-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\blue-lik-left-odskok.png" />
+    <Image Include="D:\2022_win64\data\blue-lik-left.png" />
+    <Image Include="D:\2022_win64\data\blue-lik-puca%402x.png" />
+    <Image Include="D:\2022_win64\data\blue-lik-puca-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\blue-lik-puca-odskok.png" />
+    <Image Include="D:\2022_win64\data\blue-lik-puca.png" />
+    <Image Include="D:\2022_win64\data\blue-lik-right%402x.png" />
+    <Image Include="D:\2022_win64\data\blue-lik-right-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\blue-lik-right-odskok.png" />
+    <Image Include="D:\2022_win64\data\blue-lik-right.png" />
+    <Image Include="D:\2022_win64\data\bottom-bug-tiles%402x.png" />
+    <Image Include="D:\2022_win64\data\bottom-bug-tiles.png" />
+    <Image Include="D:\2022_win64\data\bubble%402x.png" />
+    <Image Include="D:\2022_win64\data\bubble.png" />
+    <Image Include="D:\2022_win64\data\bunny-left%402x.png" />
+    <Image Include="D:\2022_win64\data\bunny-left-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\bunny-left-odskok.png" />
+    <Image Include="D:\2022_win64\data\bunny-left.png" />
+    <Image Include="D:\2022_win64\data\bunny-puca%402x.png" />
+    <Image Include="D:\2022_win64\data\bunny-puca-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\bunny-puca-odskok.png" />
+    <Image Include="D:\2022_win64\data\bunny-puca.png" />
+    <Image Include="D:\2022_win64\data\bunny-right%402x.png" />
+    <Image Include="D:\2022_win64\data\bunny-right-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\bunny-right-odskok.png" />
+    <Image Include="D:\2022_win64\data\bunny-right.png" />
+    <Image Include="D:\2022_win64\data\calibrate-info%402x.png" />
+    <Image Include="D:\2022_win64\data\calibrate-info.png" />
+    <Image Include="D:\2022_win64\data\calibration%402x.png" />
+    <Image Include="D:\2022_win64\data\calibration.png" />
+    <Image Include="D:\2022_win64\data\cancel%402x.png" />
+    <Image Include="D:\2022_win64\data\cancel-on%402x.png" />
+    <Image Include="D:\2022_win64\data\cancel-on.png" />
+    <Image Include="D:\2022_win64\data\cancel.png" />
+    <Image Include="D:\2022_win64\data\challenge%402x.png" />
+    <Image Include="D:\2022_win64\data\challenge-on%402x.png" />
+    <Image Include="D:\2022_win64\data\challenge-on.png" />
+    <Image Include="D:\2022_win64\data\challenge.png" />
+    <Image Include="D:\2022_win64\data\classic-button%402x.png" />
+    <Image Include="D:\2022_win64\data\classic-button-on%402x.png" />
+    <Image Include="D:\2022_win64\data\classic-button-on.png" />
+    <Image Include="D:\2022_win64\data\classic-button.png" />
+    <Image Include="D:\2022_win64\data\classic-popup%402x.png" />
+    <Image Include="D:\2022_win64\data\classic-popup.png" />
+    <Image Include="D:\2022_win64\data\custom-button%402x.png" />
+    <Image Include="D:\2022_win64\data\custom-button-on%402x.png" />
+    <Image Include="D:\2022_win64\data\custom-button-on.png" />
+    <Image Include="D:\2022_win64\data\custom-button.png" />
+    <Image Include="D:\2022_win64\data\Default%402x.png" />
+    <Image Include="D:\2022_win64\data\Default.png" />
+    <Image Include="D:\2022_win64\data\done%402x.png" />
+    <Image Include="D:\2022_win64\data\done-on%402x.png" />
+    <Image Include="D:\2022_win64\data\done-on.png" />
+    <Image Include="D:\2022_win64\data\done.png" />
+    <Image Include="D:\2022_win64\data\doodle-jump%402x.png" />
+    <Image Include="D:\2022_win64\data\doodle-jump.png" />
+    <Image Include="D:\2022_win64\data\doodlestein-bck%402x.png" />
+    <Image Include="D:\2022_win64\data\doodlestein-darkness%402x.png" />
+    <Image Include="D:\2022_win64\data\doodlestein-left%402x.png" />
+    <Image Include="D:\2022_win64\data\doodlestein-left-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\doodlestein-njuska%402x.png" />
+    <Image Include="D:\2022_win64\data\doodlestein-overlay%402x.png" />
+    <Image Include="D:\2022_win64\data\doodlestein-puca%402x.png" />
+    <Image Include="D:\2022_win64\data\doodlestein-puca-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\doodlestein-right%402x.png" />
+    <Image Include="D:\2022_win64\data\doodlestein-right-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\doodlestein-scroller%402x.png" />
+    <Image Include="D:\2022_win64\data\enter-name%402x.png" />
+    <Image Include="D:\2022_win64\data\enter-name.png" />
+    <Image Include="D:\2022_win64\data\facebook%402x.png" />
+    <Image Include="D:\2022_win64\data\facebook.png" />
+    <Image Include="D:\2022_win64\data\facebook_on%402x.png" />
+    <Image Include="D:\2022_win64\data\facebook_on.png" />
+    <Image Include="D:\2022_win64\data\friends-button%402x.png" />
+    <Image Include="D:\2022_win64\data\friends-button-on%402x.png" />
+    <Image Include="D:\2022_win64\data\friends-button-on.png" />
+    <Image Include="D:\2022_win64\data\friends-button.png" />
+    <Image Include="D:\2022_win64\data\frozen-left%402x.png" />
+    <Image Include="D:\2022_win64\data\frozen-right%402x.png" />
+    <Image Include="D:\2022_win64\data\full-button%402x.png" />
+    <Image Include="D:\2022_win64\data\full-button-on%402x.png" />
+    <Image Include="D:\2022_win64\data\full-button-on.png" />
+    <Image Include="D:\2022_win64\data\full-button.png" />
+    <Image Include="D:\2022_win64\data\game-tiles%402x.png" />
+    <Image Include="D:\2022_win64\data\game-tiles-bunny%402x.png" />
+    <Image Include="D:\2022_win64\data\game-tiles-bunny.png" />
+    <Image Include="D:\2022_win64\data\game-tiles-halloween%402x.png" />
+    <Image Include="D:\2022_win64\data\game-tiles-ice%402x.png" />
+    <Image Include="D:\2022_win64\data\game-tiles-jungle%402x.png" />
+    <Image Include="D:\2022_win64\data\game-tiles-snow%402x.png" />
+    <Image Include="D:\2022_win64\data\game-tiles-snow.png" />
+    <Image Include="D:\2022_win64\data\game-tiles-soccer%402x.png" />
+    <Image Include="D:\2022_win64\data\game-tiles-soccer.png" />
+    <Image Include="D:\2022_win64\data\game-tiles-space%402x.png" />
+    <Image Include="D:\2022_win64\data\game-tiles-space.png" />
+    <Image Include="D:\2022_win64\data\game-tiles-underwater%402x.png" />
+    <Image Include="D:\2022_win64\data\game-tiles-underwater.png" />
+    <Image Include="D:\2022_win64\data\game-tiles.png" />
+    <Image Include="D:\2022_win64\data\gamecenter%402x.png" />
+    <Image Include="D:\2022_win64\data\gamecenter.png" />
+    <Image Include="D:\2022_win64\data\gamecenter_on%402x.png" />
+    <Image Include="D:\2022_win64\data\gamecenter_on.png" />
+    <Image Include="D:\2022_win64\data\ghost-bck%402x.png" />
+    <Image Include="D:\2022_win64\data\ghost-darkness%402x.png" />
+    <Image Include="D:\2022_win64\data\ghost-land%402x.png" />
+    <Image Include="D:\2022_win64\data\ghost-left%402x.png" />
+    <Image Include="D:\2022_win64\data\ghost-left-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\ghost-moon%402x.png" />
+    <Image Include="D:\2022_win64\data\ghost-njuska%402x.png" />
+    <Image Include="D:\2022_win64\data\ghost-puca%402x.png" />
+    <Image Include="D:\2022_win64\data\ghost-puca-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\ghost-right%402x.png" />
+    <Image Include="D:\2022_win64\data\ghost-right-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\global-button%402x.png" />
+    <Image Include="D:\2022_win64\data\global-button-on%402x.png" />
+    <Image Include="D:\2022_win64\data\global-button-on.png" />
+    <Image Include="D:\2022_win64\data\global-button.png" />
+    <Image Include="D:\2022_win64\data\halloween-bck2%402x_ORIG.png" />
+    <Image Include="D:\2022_win64\data\halloween-top-score%402x.png" />
+    <Image Include="D:\2022_win64\data\high-scores-bottom%402x.png" />
+    <Image Include="D:\2022_win64\data\high-scores-bottom.png" />
+    <Image Include="D:\2022_win64\data\high-scores-left%402x.png" />
+    <Image Include="D:\2022_win64\data\high-scores-left.png" />
+    <Image Include="D:\2022_win64\data\high-scores-top%402x.png" />
+    <Image Include="D:\2022_win64\data\high-scores-top.png" />
+    <Image Include="D:\2022_win64\data\hole%402x.png" />
+    <Image Include="D:\2022_win64\data\hole.png" />
+    <Image Include="D:\2022_win64\data\hop-bck%402x.png" />
+    <Image Include="D:\2022_win64\data\hop-bck.png" />
+    <Image Include="D:\2022_win64\data\hop-bottom%402x.png" />
+    <Image Include="D:\2022_win64\data\hop-bottom.png" />
+    <Image Include="D:\2022_win64\data\hop-fall%402x.png" />
+    <Image Include="D:\2022_win64\data\hop-fall.png" />
+    <Image Include="D:\2022_win64\data\hop-head%402x.png" />
+    <Image Include="D:\2022_win64\data\hop-head.png" />
+    <Image Include="D:\2022_win64\data\hop-left-fall%402x.png" />
+    <Image Include="D:\2022_win64\data\hop-left-fall.png" />
+    <Image Include="D:\2022_win64\data\hop-left-jump%402x.png" />
+    <Image Include="D:\2022_win64\data\hop-left-jump.png" />
+    <Image Include="D:\2022_win64\data\hop-left-touch%402x.png" />
+    <Image Include="D:\2022_win64\data\hop-left-touch.png" />
+    <Image Include="D:\2022_win64\data\hop-right-fall%402x.png" />
+    <Image Include="D:\2022_win64\data\hop-right-fall.png" />
+    <Image Include="D:\2022_win64\data\hop-right-jump%402x.png" />
+    <Image Include="D:\2022_win64\data\hop-right-jump.png" />
+    <Image Include="D:\2022_win64\data\hop-right-touch%402x.png" />
+    <Image Include="D:\2022_win64\data\hop-right-touch.png" />
+    <Image Include="D:\2022_win64\data\hop-shootdown-fall%402x.png" />
+    <Image Include="D:\2022_win64\data\hop-shootdown-fall.png" />
+    <Image Include="D:\2022_win64\data\hop-shootdown-jump%402x.png" />
+    <Image Include="D:\2022_win64\data\hop-shootdown-jump.png" />
+    <Image Include="D:\2022_win64\data\hop-shootdown-touch%402x.png" />
+    <Image Include="D:\2022_win64\data\hop-shootdown-touch.png" />
+    <Image Include="D:\2022_win64\data\hop-shootup-fall%402x.png" />
+    <Image Include="D:\2022_win64\data\hop-shootup-fall.png" />
+    <Image Include="D:\2022_win64\data\hop-shootup-jump%402x.png" />
+    <Image Include="D:\2022_win64\data\hop-shootup-jump.png" />
+    <Image Include="D:\2022_win64\data\hop-shootup-touch%402x.png" />
+    <Image Include="D:\2022_win64\data\hop-shootup-touch.png" />
+    <Image Include="D:\2022_win64\data\hop-top-score%402x.png" />
+    <Image Include="D:\2022_win64\data\hop-top-score.png" />
+    <Image Include="D:\2022_win64\data\hs-friends%402x.png" />
+    <Image Include="D:\2022_win64\data\hs-friends-on%402x.png" />
+    <Image Include="D:\2022_win64\data\hs-friends-on.png" />
+    <Image Include="D:\2022_win64\data\hs-friends.png" />
+    <Image Include="D:\2022_win64\data\hs-global%402x.png" />
+    <Image Include="D:\2022_win64\data\hs-global-on%402x.png" />
+    <Image Include="D:\2022_win64\data\hs-global-on.png" />
+    <Image Include="D:\2022_win64\data\hs-global.png" />
+    <Image Include="D:\2022_win64\data\hs-local%402x.png" />
+    <Image Include="D:\2022_win64\data\hs-local-on%402x.png" />
+    <Image Include="D:\2022_win64\data\hs-local-on.png" />
+    <Image Include="D:\2022_win64\data\hs-local.png" />
+    <Image Include="D:\2022_win64\data\ice-bck%402x.png" />
+    <Image Include="D:\2022_win64\data\ice-left%402x.png" />
+    <Image Include="D:\2022_win64\data\ice-left-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\ice-lik-njuska%402x.png" />
+    <Image Include="D:\2022_win64\data\ice-puca%402x.png" />
+    <Image Include="D:\2022_win64\data\ice-puca-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\ice-right%402x.png" />
+    <Image Include="D:\2022_win64\data\ice-right-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\ice-snow-16.png" />
+    <Image Include="D:\2022_win64\data\ice-snow-8.png" />
+    <Image Include="D:\2022_win64\data\Icon%402x.png" />
+    <Image Include="D:\2022_win64\data\Icon.png" />
+    <Image Include="D:\2022_win64\data\import%402x.png" />
+    <Image Include="D:\2022_win64\data\import.png" />
+    <Image Include="D:\2022_win64\data\jetpack%402x.png" />
+    <Image Include="D:\2022_win64\data\jetpack-bunny%402x.png" />
+    <Image Include="D:\2022_win64\data\jetpack-bunny.png" />
+    <Image Include="D:\2022_win64\data\jetpack-doodlestein%402x.png" />
+    <Image Include="D:\2022_win64\data\jetpack-snow%402x.png" />
+    <Image Include="D:\2022_win64\data\jetpack-snow.png" />
+    <Image Include="D:\2022_win64\data\jetpack-space%402x.png" />
+    <Image Include="D:\2022_win64\data\jetpack-space.png" />
+    <Image Include="D:\2022_win64\data\jetpack-underwater%402x.png" />
+    <Image Include="D:\2022_win64\data\jetpack-underwater.png" />
+    <Image Include="D:\2022_win64\data\jetpack.png" />
+    <Image Include="D:\2022_win64\data\jungle-bck%402x.png" />
+    <Image Include="D:\2022_win64\data\jungle-left%402x.png" />
+    <Image Include="D:\2022_win64\data\jungle-left-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\jungle-left-odskok.png" />
+    <Image Include="D:\2022_win64\data\jungle-left.png" />
+    <Image Include="D:\2022_win64\data\jungle-njuska%402x.png" />
+    <Image Include="D:\2022_win64\data\jungle-njuska.png" />
+    <Image Include="D:\2022_win64\data\jungle-puca%402x.png" />
+    <Image Include="D:\2022_win64\data\jungle-puca-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\jungle-puca-odskok.png" />
+    <Image Include="D:\2022_win64\data\jungle-puca.png" />
+    <Image Include="D:\2022_win64\data\jungle-right%402x.png" />
+    <Image Include="D:\2022_win64\data\jungle-right-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\jungle-right-odskok.png" />
+    <Image Include="D:\2022_win64\data\jungle-right.png" />
+    <Image Include="D:\2022_win64\data\jungle-scroller%402x.png" />
+    <Image Include="D:\2022_win64\data\jungle-scroller.png" />
+    <Image Include="D:\2022_win64\data\jungle-top-score%402x.png" />
+    <Image Include="D:\2022_win64\data\jungle-top-score.png" />
+    <Image Include="D:\2022_win64\data\lik-left%402x.png" />
+    <Image Include="D:\2022_win64\data\lik-left-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\lik-left-odskok.png" />
+    <Image Include="D:\2022_win64\data\lik-left.png" />
+    <Image Include="D:\2022_win64\data\lik-njuska%402x.png" />
+    <Image Include="D:\2022_win64\data\lik-njuska.png" />
+    <Image Include="D:\2022_win64\data\lik-puca%402x.png" />
+    <Image Include="D:\2022_win64\data\lik-puca-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\lik-puca-odskok.png" />
+    <Image Include="D:\2022_win64\data\lik-puca.png" />
+    <Image Include="D:\2022_win64\data\lik-right%402x.png" />
+    <Image Include="D:\2022_win64\data\lik-right-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\lik-right-odskok.png" />
+    <Image Include="D:\2022_win64\data\lik-right.png" />
+    <Image Include="D:\2022_win64\data\loading-scores%402x.png" />
+    <Image Include="D:\2022_win64\data\loading-scores.png" />
+    <Image Include="D:\2022_win64\data\loading.png" />
+    <Image Include="D:\2022_win64\data\local-button%402x.png" />
+    <Image Include="D:\2022_win64\data\local-button-on%402x.png" />
+    <Image Include="D:\2022_win64\data\local-button-on.png" />
+    <Image Include="D:\2022_win64\data\local-button.png" />
+    <Image Include="D:\2022_win64\data\localscores%402x.png" />
+    <Image Include="D:\2022_win64\data\localscores.png" />
+    <Image Include="D:\2022_win64\data\localscores_on.png" />
+    <Image Include="D:\2022_win64\data\manual-button-on.png" />
+    <Image Include="D:\2022_win64\data\menu%402x.png" />
+    <Image Include="D:\2022_win64\data\menu-on%402x.png" />
+    <Image Include="D:\2022_win64\data\menu-on.png" />
+    <Image Include="D:\2022_win64\data\menu.png" />
+    <Image Include="D:\2022_win64\data\multiplayer%402x.png" />
+    <Image Include="D:\2022_win64\data\multiplayer-connecting%402x.png" />
+    <Image Include="D:\2022_win64\data\multiplayer-connecting.png" />
+    <Image Include="D:\2022_win64\data\multiplayer-on%402x.png" />
+    <Image Include="D:\2022_win64\data\multiplayer-on.png" />
+    <Image Include="D:\2022_win64\data\multiplayer-tiles%402x.png" />
+    <Image Include="D:\2022_win64\data\multiplayer-tiles.png" />
+    <Image Include="D:\2022_win64\data\multiplayer.png" />
+    <Image Include="D:\2022_win64\data\news-bck%402x.png" />
+    <Image Include="D:\2022_win64\data\news-bck.png" />
+    <Image Include="D:\2022_win64\data\news-close%402x.png" />
+    <Image Include="D:\2022_win64\data\news-close.png" />
+    <Image Include="D:\2022_win64\data\news-doodle-special.png" />
+    <Image Include="D:\2022_win64\data\news-loading%402x.png" />
+    <Image Include="D:\2022_win64\data\news-loading.png" />
+    <Image Include="D:\2022_win64\data\news-title%402x.png" />
+    <Image Include="D:\2022_win64\data\news-title.png" />
+    <Image Include="D:\2022_win64\data\news-warning%402x.png" />
+    <Image Include="D:\2022_win64\data\news-warning.png" />
+    <Image Include="D:\2022_win64\data\off-button%402x.png" />
+    <Image Include="D:\2022_win64\data\off-button-on%402x.png" />
+    <Image Include="D:\2022_win64\data\off-button-on.png" />
+    <Image Include="D:\2022_win64\data\off-button.png" />
+    <Image Include="D:\2022_win64\data\on-button%402x.png" />
+    <Image Include="D:\2022_win64\data\on-button-on%402x.png" />
+    <Image Include="D:\2022_win64\data\on-button-on.png" />
+    <Image Include="D:\2022_win64\data\on-button.png" />
+    <Image Include="D:\2022_win64\data\ooga-left%402x.png" />
+    <Image Include="D:\2022_win64\data\ooga-left-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\ooga-left-odskok.png" />
+    <Image Include="D:\2022_win64\data\ooga-left.png" />
+    <Image Include="D:\2022_win64\data\ooga-pada%402x.png" />
+    <Image Include="D:\2022_win64\data\ooga-pada.png" />
+    <Image Include="D:\2022_win64\data\ooga-puca%402x.png" />
+    <Image Include="D:\2022_win64\data\ooga-puca-dolje%402x.png" />
+    <Image Include="D:\2022_win64\data\ooga-puca-dolje.png" />
+    <Image Include="D:\2022_win64\data\ooga-puca-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\ooga-puca-odskok.png" />
+    <Image Include="D:\2022_win64\data\ooga-puca.png" />
+    <Image Include="D:\2022_win64\data\ooga-right%402x.png" />
+    <Image Include="D:\2022_win64\data\ooga-right-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\ooga-right-odskok.png" />
+    <Image Include="D:\2022_win64\data\ooga-right.png" />
+    <Image Include="D:\2022_win64\data\options%402x.png" />
+    <Image Include="D:\2022_win64\data\options-bck%402x.png" />
+    <Image Include="D:\2022_win64\data\options-bck.png" />
+    <Image Include="D:\2022_win64\data\options-on%402x.png" />
+    <Image Include="D:\2022_win64\data\options-on.png" />
+    <Image Include="D:\2022_win64\data\options.png" />
+    <Image Include="D:\2022_win64\data\pause-cover%402x.png" />
+    <Image Include="D:\2022_win64\data\pause-cover.png" />
+    <Image Include="D:\2022_win64\data\play%402x.png" />
+    <Image Include="D:\2022_win64\data\play-again-on%402x.png" />
+    <Image Include="D:\2022_win64\data\play-again-on.png" />
+    <Image Include="D:\2022_win64\data\play-on%402x.png" />
+    <Image Include="D:\2022_win64\data\play-on.png" />
+    <Image Include="D:\2022_win64\data\play.png" />
+    <Image Include="D:\2022_win64\data\projectile-tiles%402x.png" />
+    <Image Include="D:\2022_win64\data\projectile-tiles.png" />
+    <Image Include="D:\2022_win64\data\propeller%402x.png" />
+    <Image Include="D:\2022_win64\data\propeller-bunny%402x.png" />
+    <Image Include="D:\2022_win64\data\propeller-bunny.png" />
+    <Image Include="D:\2022_win64\data\propeller-doodlestein%402x.png" />
+    <Image Include="D:\2022_win64\data\propeller-ghost%402x.png" />
+    <Image Include="D:\2022_win64\data\propeller-ooga%402x.png" />
+    <Image Include="D:\2022_win64\data\propeller-ooga.png" />
+    <Image Include="D:\2022_win64\data\propeller-space%402x.png" />
+    <Image Include="D:\2022_win64\data\propeller-space.png" />
+    <Image Include="D:\2022_win64\data\propeller-underwater%402x.png" />
+    <Image Include="D:\2022_win64\data\propeller-underwater.png" />
+    <Image Include="D:\2022_win64\data\propeller.png" />
+    <Image Include="D:\2022_win64\data\race-over.png" />
+    <Image Include="D:\2022_win64\data\rain%402x.png" />
+    <Image Include="D:\2022_win64\data\rain.png" />
+    <Image Include="D:\2022_win64\data\red-lik-left-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\red-lik-left-odskok.png" />
+    <Image Include="D:\2022_win64\data\red-lik-left.png" />
+    <Image Include="D:\2022_win64\data\resume%402x.png" />
+    <Image Include="D:\2022_win64\data\rocket%402x.png" />
+    <Image Include="D:\2022_win64\data\rocket.png" />
+    <Image Include="D:\2022_win64\data\scores-on%402x.png" />
+    <Image Include="D:\2022_win64\data\scores-on.png" />
+    <Image Include="D:\2022_win64\data\scores.png" />
+    <Image Include="D:\2022_win64\data\set%402x.png" />
+    <Image Include="D:\2022_win64\data\set-on%402x.png" />
+    <Image Include="D:\2022_win64\data\set.png" />
+    <Image Include="D:\2022_win64\data\shield%402x.png" />
+    <Image Include="D:\2022_win64\data\shield.png" />
+    <Image Include="D:\2022_win64\data\snow%402x.png" />
+    <Image Include="D:\2022_win64\data\snow-springshoes-up%402x.png" />
+    <Image Include="D:\2022_win64\data\snow-top-score%402x.png" />
+    <Image Include="D:\2022_win64\data\snow-top-score.png" />
+    <Image Include="D:\2022_win64\data\snow.png" />
+    <Image Include="D:\2022_win64\data\soccer-bck%402x.png" />
+    <Image Include="D:\2022_win64\data\soccer-bck.png" />
+    <Image Include="D:\2022_win64\data\soccer-left%402x.png" />
+    <Image Include="D:\2022_win64\data\soccer-left-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\soccer-left-odskok.png" />
+    <Image Include="D:\2022_win64\data\soccer-left.png" />
+    <Image Include="D:\2022_win64\data\soccer-puca%402x.png" />
+    <Image Include="D:\2022_win64\data\soccer-puca-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\soccer-puca-odskok.png" />
+    <Image Include="D:\2022_win64\data\soccer-puca.png" />
+    <Image Include="D:\2022_win64\data\soccer-right%402x.png" />
+    <Image Include="D:\2022_win64\data\soccer-right-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\soccer-right-odskok.png" />
+    <Image Include="D:\2022_win64\data\soccer-right.png" />
+    <Image Include="D:\2022_win64\data\soccer-top-score%402x.png" />
+    <Image Include="D:\2022_win64\data\soccer-top-score.png" />
+    <Image Include="D:\2022_win64\data\space-bck%402x.png" />
+    <Image Include="D:\2022_win64\data\space-bck.png" />
+    <Image Include="D:\2022_win64\data\space-left%402x.png" />
+    <Image Include="D:\2022_win64\data\space-left-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\space-left-odskok.png" />
+    <Image Include="D:\2022_win64\data\space-left.png" />
+    <Image Include="D:\2022_win64\data\space-puca%402x.png" />
+    <Image Include="D:\2022_win64\data\space-puca-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\space-puca-odskok.png" />
+    <Image Include="D:\2022_win64\data\space-puca.png" />
+    <Image Include="D:\2022_win64\data\space-right%402x.png" />
+    <Image Include="D:\2022_win64\data\space-right-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\space-right-odskok.png" />
+    <Image Include="D:\2022_win64\data\space-right.png" />
+    <Image Include="D:\2022_win64\data\space-top-score%402x.png" />
+    <Image Include="D:\2022_win64\data\space-top-score.png" />
+    <Image Include="D:\2022_win64\data\springshoes-side%402x.png" />
+    <Image Include="D:\2022_win64\data\springshoes-side.png" />
+    <Image Include="D:\2022_win64\data\springshoes-up%402x.png" />
+    <Image Include="D:\2022_win64\data\springshoes-up.png" />
+    <Image Include="D:\2022_win64\data\stars1%402x.png" />
+    <Image Include="D:\2022_win64\data\stars1.png" />
+    <Image Include="D:\2022_win64\data\stars2%402x.png" />
+    <Image Include="D:\2022_win64\data\stars2.png" />
+    <Image Include="D:\2022_win64\data\stars3%402x.png" />
+    <Image Include="D:\2022_win64\data\stars3.png" />
+    <Image Include="D:\2022_win64\data\start-end-tiles%402x.png" />
+    <Image Include="D:\2022_win64\data\start-end-tiles.png" />
+    <Image Include="D:\2022_win64\data\stats%402x.png" />
+    <Image Include="D:\2022_win64\data\stats.png" />
+    <Image Include="D:\2022_win64\data\stats_on%402x.png" />
+    <Image Include="D:\2022_win64\data\stats_on.png" />
+    <Image Include="D:\2022_win64\data\submit%402x.png" />
+    <Image Include="D:\2022_win64\data\submit-facebook-on%402x.png" />
+    <Image Include="D:\2022_win64\data\submit-facebook-on.png" />
+    <Image Include="D:\2022_win64\data\submit-on%402x.png" />
+    <Image Include="D:\2022_win64\data\submit-on.png" />
+    <Image Include="D:\2022_win64\data\submit-twitter-on%402x.png" />
+    <Image Include="D:\2022_win64\data\submit-twitter-on.png" />
+    <Image Include="D:\2022_win64\data\submit.png" />
+    <Image Include="D:\2022_win64\data\swipe-alert%402x.png" />
+    <Image Include="D:\2022_win64\data\swipe-alert.png" />
+    <Image Include="D:\2022_win64\data\themes-1%402x.png" />
+    <Image Include="D:\2022_win64\data\themes-1.png" />
+    <Image Include="D:\2022_win64\data\themes-2%402x.png" />
+    <Image Include="D:\2022_win64\data\themes-2.png" />
+    <Image Include="D:\2022_win64\data\today%402x.png" />
+    <Image Include="D:\2022_win64\data\today.png" />
+    <Image Include="D:\2022_win64\data\today_on%402x.png" />
+    <Image Include="D:\2022_win64\data\today_on.png" />
+    <Image Include="D:\2022_win64\data\top-score%402x.png" />
+    <Image Include="D:\2022_win64\data\top-score.png" />
+    <Image Include="D:\2022_win64\data\twitter-bck%402x.png" />
+    <Image Include="D:\2022_win64\data\twitter-bck.png" />
+    <Image Include="D:\2022_win64\data\twitter-cancel%402x.png" />
+    <Image Include="D:\2022_win64\data\twitter-cancel-on%402x.png" />
+    <Image Include="D:\2022_win64\data\twitter-cancel-on.png" />
+    <Image Include="D:\2022_win64\data\twitter-cancel.png" />
+    <Image Include="D:\2022_win64\data\twitter-down%402x.png" />
+    <Image Include="D:\2022_win64\data\twitter-down.png" />
+    <Image Include="D:\2022_win64\data\twitter-error%402x.png" />
+    <Image Include="D:\2022_win64\data\twitter-error.png" />
+    <Image Include="D:\2022_win64\data\twitter-invalid-login%402x.png" />
+    <Image Include="D:\2022_win64\data\twitter-invalid-login.png" />
+    <Image Include="D:\2022_win64\data\twitter-logged%402x.png" />
+    <Image Include="D:\2022_win64\data\twitter-logged.png" />
+    <Image Include="D:\2022_win64\data\twitter-logout%402x.png" />
+    <Image Include="D:\2022_win64\data\twitter-logout-on%402x.png" />
+    <Image Include="D:\2022_win64\data\twitter-logout-on.png" />
+    <Image Include="D:\2022_win64\data\twitter-logout.png" />
+    <Image Include="D:\2022_win64\data\twitter-overloaded%402x.png" />
+    <Image Include="D:\2022_win64\data\twitter-overloaded.png" />
+    <Image Include="D:\2022_win64\data\twitter-sent%402x.png" />
+    <Image Include="D:\2022_win64\data\twitter-sent.png" />
+    <Image Include="D:\2022_win64\data\twitter-submit%402x.png" />
+    <Image Include="D:\2022_win64\data\twitter-submit-on%402x.png" />
+    <Image Include="D:\2022_win64\data\twitter-submit-on.png" />
+    <Image Include="D:\2022_win64\data\twitter-submit.png" />
+    <Image Include="D:\2022_win64\data\twitter-user-password%402x.png" />
+    <Image Include="D:\2022_win64\data\twitter-user-password.png" />
+    <Image Include="D:\2022_win64\data\underwater-bck%402x.png" />
+    <Image Include="D:\2022_win64\data\underwater-left%402x.png" />
+    <Image Include="D:\2022_win64\data\underwater-left-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\underwater-left-odskok.png" />
+    <Image Include="D:\2022_win64\data\underwater-left.png" />
+    <Image Include="D:\2022_win64\data\underwater-light%402x.png" />
+    <Image Include="D:\2022_win64\data\underwater-light.png" />
+    <Image Include="D:\2022_win64\data\underwater-lines%402x.png" />
+    <Image Include="D:\2022_win64\data\underwater-lines.png" />
+    <Image Include="D:\2022_win64\data\underwater-puca%402x.png" />
+    <Image Include="D:\2022_win64\data\underwater-puca-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\underwater-puca-odskok.png" />
+    <Image Include="D:\2022_win64\data\underwater-puca.png" />
+    <Image Include="D:\2022_win64\data\underwater-right%402x.png" />
+    <Image Include="D:\2022_win64\data\underwater-right-odskok%402x.png" />
+    <Image Include="D:\2022_win64\data\underwater-right-odskok.png" />
+    <Image Include="D:\2022_win64\data\underwater-right.png" />
+    <Image Include="D:\2022_win64\data\underwater-top-score%402x.png" />
+    <Image Include="D:\2022_win64\data\underwater-top-score.png" />
+    <Image Include="D:\2022_win64\data\week%402x.png" />
+    <Image Include="D:\2022_win64\data\week.png" />
+    <Image Include="D:\2022_win64\data\week_on%402x.png" />
+    <Image Include="D:\2022_win64\data\week_on.png" />
+    <Image Include="D:\2022_win64\data\whatsnew.png" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{1e468d89-2628-40e7-929f-b7a0f4248765}</ProjectGuid>
+    <RootNamespace>game</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\2022_win64;C:\Users\breze\source\repos\dragonslake\game;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>"D:\2022_win64\FrameworkRelease_x64.lib";%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\2022_win64;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

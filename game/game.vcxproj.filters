@@ -1,0 +1,1707 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{b06ccd03-94f0-43f7-9b98-3110f0785c68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{416262f0-3054-46b1-84da-634dbfa3d183}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\2022_win64\Framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ability.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\2022_win64\FrameworkRelease_x64.dll">
+      <Filter>libs</Filter>
+    </None>
+    <None Include="D:\2022_win64\libjpeg-9.dll">
+      <Filter>libs</Filter>
+    </None>
+    <None Include="D:\2022_win64\libpng16-16.dll">
+      <Filter>libs</Filter>
+    </None>
+    <None Include="D:\2022_win64\SDL2.dll">
+      <Filter>libs</Filter>
+    </None>
+    <None Include="D:\2022_win64\SDL2_image.dll">
+      <Filter>libs</Filter>
+    </None>
+    <None Include="D:\2022_win64\zlib1.dll">
+      <Filter>libs</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\2022_win64\game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="D:\2022_win64\FrameworkRelease_x64.lib">
+      <Filter>libs</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="D:\2022_win64\data\ach-bouncer.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-bouncer%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-conflict.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-conflict%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-doodle-jump-explorer.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-doodle-jump-explorer%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-egg-hunter-50.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-egg-hunter-50%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-egg-hunter-1000.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-egg-hunter-1000%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-endurance-jumper.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-endurance-jumper%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-epic-fail.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-epic-fail%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-epic-fail-ftw.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-epic-fail-ftw%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-facebook.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-facebook%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-focused-endurance-jumper.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-focused-endurance-jumper%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-hundred-thousand.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-hundred-thousand%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\achievement-name-tiles.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\achievement-name-tiles%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\achievements.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\achievements%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\achievements_on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\achievements_on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-jetpack.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-jetpack%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-monster-chopper.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-monster-chopper%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-old.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-old%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-pocket-god.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-pocket-god%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-propeller.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-propeller%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-race-champ.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-race-champ%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-race-hero.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-race-hero%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-race-legend.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-race-legend%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-sharp.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-sharp%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-spring.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-spring%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-springer.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-springer%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-super-bouncer.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-super-bouncer%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-super-conflict.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-super-conflict%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-super-sharp.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-super-sharp%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-super-springer.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-super-springer%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-twitter.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-twitter%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-ufo.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-ufo%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-ufo-bouncer.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ach-ufo-bouncer%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\all.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\all%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\all_on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\all_on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\auto-button.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\auto-button%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\auto-button-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\auto-button-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\awesome.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\awesome%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\bck.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\bck%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\blue-lik-left.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\blue-lik-left%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\blue-lik-left-odskok.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\blue-lik-left-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\blue-lik-puca.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\blue-lik-puca%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\blue-lik-puca-odskok.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\blue-lik-puca-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\blue-lik-right.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\blue-lik-right%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\blue-lik-right-odskok.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\blue-lik-right-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\bottom-bug-tiles.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\bottom-bug-tiles%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\bubble.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\bubble%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\bunny-left.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\bunny-left%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\bunny-left-odskok.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\bunny-left-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\bunny-puca.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\bunny-puca%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\bunny-puca-odskok.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\bunny-puca-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\bunny-right.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\bunny-right%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\bunny-right-odskok.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\bunny-right-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\calibrate-info.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\calibrate-info%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\calibration.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\calibration%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\cancel.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\cancel%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\cancel-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\cancel-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\challenge.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\challenge%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\challenge-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\challenge-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\classic-button.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\classic-button%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\classic-button-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\classic-button-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\classic-popup.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\classic-popup%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\custom-button.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\custom-button%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\custom-button-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\custom-button-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\Default.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\Default%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\done.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\done%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\done-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\done-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\doodle-jump.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\doodle-jump%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\doodlestein-bck%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\doodlestein-darkness%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\doodlestein-left%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\doodlestein-left-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\doodlestein-njuska%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\doodlestein-overlay%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\doodlestein-puca%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\doodlestein-puca-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\doodlestein-right%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\doodlestein-right-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\doodlestein-scroller%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\enter-name.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\enter-name%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\facebook.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\facebook%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\facebook_on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\facebook_on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\friends-button.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\friends-button%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\friends-button-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\friends-button-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\frozen-left%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\frozen-right%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\full-button.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\full-button%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\full-button-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\full-button-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\gamecenter.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\gamecenter%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\gamecenter_on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\gamecenter_on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\game-tiles.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\game-tiles%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\game-tiles-bunny.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\game-tiles-bunny%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\game-tiles-halloween%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\game-tiles-ice%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\game-tiles-jungle%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\game-tiles-snow.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\game-tiles-snow%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\game-tiles-soccer.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\game-tiles-soccer%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\game-tiles-space.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\game-tiles-space%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\game-tiles-underwater.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\game-tiles-underwater%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ghost-bck%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ghost-darkness%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ghost-land%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ghost-left%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ghost-left-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ghost-moon%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ghost-njuska%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ghost-puca%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ghost-puca-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ghost-right%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ghost-right-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\global-button.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\global-button%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\global-button-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\global-button-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\halloween-bck2%402x_ORIG.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\halloween-top-score%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\high-scores-bottom.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\high-scores-bottom%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\high-scores-left.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\high-scores-left%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\high-scores-top.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\high-scores-top%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hole.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hole%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-bck.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-bck%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-bottom.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-bottom%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-fall.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-fall%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-head.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-head%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-left-fall.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-left-fall%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-left-jump.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-left-jump%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-left-touch.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-left-touch%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-right-fall.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-right-fall%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-right-jump.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-right-jump%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-right-touch.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-right-touch%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-shootdown-fall.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-shootdown-fall%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-shootdown-jump.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-shootdown-jump%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-shootdown-touch.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-shootdown-touch%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-shootup-fall.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-shootup-fall%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-shootup-jump.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-shootup-jump%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-shootup-touch.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-shootup-touch%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-top-score.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hop-top-score%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hs-friends.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hs-friends%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hs-friends-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hs-friends-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hs-global.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hs-global%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hs-global-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hs-global-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hs-local.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hs-local%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hs-local-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\hs-local-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ice-bck%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ice-left%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ice-left-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ice-lik-njuska%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ice-puca%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ice-puca-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ice-right%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ice-right-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ice-snow-8.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ice-snow-16.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\Icon.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\Icon%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\import.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\import%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jetpack.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jetpack%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jetpack-bunny.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jetpack-bunny%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jetpack-doodlestein%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jetpack-snow.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jetpack-snow%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jetpack-space.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jetpack-space%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jetpack-underwater.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jetpack-underwater%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jungle-bck%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jungle-left.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jungle-left%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jungle-left-odskok.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jungle-left-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jungle-njuska.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jungle-njuska%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jungle-puca.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jungle-puca%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jungle-puca-odskok.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jungle-puca-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jungle-right.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jungle-right%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jungle-right-odskok.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jungle-right-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jungle-scroller.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jungle-scroller%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jungle-top-score.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\jungle-top-score%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\lik-left.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\lik-left%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\lik-left-odskok.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\lik-left-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\lik-njuska.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\lik-njuska%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\lik-puca.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\lik-puca%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\lik-puca-odskok.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\lik-puca-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\lik-right.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\lik-right%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\lik-right-odskok.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\lik-right-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\loading.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\loading-scores.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\loading-scores%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\local-button.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\local-button%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\local-button-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\local-button-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\localscores.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\localscores%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\localscores_on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\manual-button-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\menu.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\menu%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\menu-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\menu-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\multiplayer.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\multiplayer%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\multiplayer-connecting.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\multiplayer-connecting%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\multiplayer-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\multiplayer-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\multiplayer-tiles.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\multiplayer-tiles%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\news-bck.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\news-bck%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\news-close.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\news-close%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\news-doodle-special.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\news-loading.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\news-loading%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\news-title.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\news-title%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\news-warning.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\news-warning%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\off-button.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\off-button%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\off-button-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\off-button-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\on-button.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\on-button%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\on-button-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\on-button-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ooga-left.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ooga-left%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ooga-left-odskok.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ooga-left-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ooga-pada.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ooga-pada%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ooga-puca.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ooga-puca%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ooga-puca-dolje.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ooga-puca-dolje%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ooga-puca-odskok.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ooga-puca-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ooga-right.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ooga-right%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ooga-right-odskok.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\ooga-right-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\options.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\options%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\options-bck.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\options-bck%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\options-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\options-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\pause-cover.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\pause-cover%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\play.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\play%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\play-again-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\play-again-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\play-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\play-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\projectile-tiles.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\projectile-tiles%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\propeller.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\propeller%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\propeller-bunny.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\propeller-bunny%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\propeller-doodlestein%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\propeller-ghost%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\propeller-ooga.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\propeller-ooga%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\propeller-space.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\propeller-space%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\propeller-underwater.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\propeller-underwater%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\race-over.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\rain.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\rain%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\red-lik-left.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\red-lik-left-odskok.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\red-lik-left-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\resume%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\rocket.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\rocket%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\scores.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\scores-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\scores-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\set.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\set%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\set-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\shield.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\shield%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\snow.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\snow%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\snow-springshoes-up%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\snow-top-score.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\snow-top-score%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\soccer-bck.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\soccer-bck%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\soccer-left.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\soccer-left%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\soccer-left-odskok.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\soccer-left-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\soccer-puca.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\soccer-puca%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\soccer-puca-odskok.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\soccer-puca-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\soccer-right.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\soccer-right%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\soccer-right-odskok.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\soccer-right-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\soccer-top-score.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\soccer-top-score%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\space-bck.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\space-bck%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\space-left.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\space-left%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\space-left-odskok.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\space-left-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\space-puca.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\space-puca%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\space-puca-odskok.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\space-puca-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\space-right.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\space-right%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\space-right-odskok.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\space-right-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\space-top-score.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\space-top-score%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\springshoes-side.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\springshoes-side%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\springshoes-up.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\springshoes-up%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\stars1.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\stars1%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\stars2.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\stars2%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\stars3.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\stars3%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\start-end-tiles.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\start-end-tiles%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\stats.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\stats%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\stats_on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\stats_on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\submit.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\submit%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\submit-facebook-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\submit-facebook-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\submit-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\submit-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\submit-twitter-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\submit-twitter-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\swipe-alert.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\swipe-alert%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\themes-1.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\themes-1%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\themes-2.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\themes-2%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\today.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\today%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\today_on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\today_on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\top-score.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\top-score%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-bck.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-bck%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-cancel.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-cancel%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-cancel-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-cancel-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-down.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-down%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-error.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-error%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-invalid-login.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-invalid-login%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-logged.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-logged%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-logout.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-logout%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-logout-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-logout-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-overloaded.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-overloaded%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-sent.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-sent%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-submit.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-submit%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-submit-on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-submit-on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-user-password.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\twitter-user-password%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\underwater-bck%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\underwater-left.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\underwater-left%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\underwater-left-odskok.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\underwater-left-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\underwater-light.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\underwater-light%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\underwater-lines.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\underwater-lines%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\underwater-puca.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\underwater-puca%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\underwater-puca-odskok.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\underwater-puca-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\underwater-right.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\underwater-right%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\underwater-right-odskok.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\underwater-right-odskok%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\underwater-top-score.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\underwater-top-score%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\week.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\week%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\week_on.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\week_on%402x.png">
+      <Filter>data</Filter>
+    </Image>
+    <Image Include="D:\2022_win64\data\whatsnew.png">
+      <Filter>data</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
